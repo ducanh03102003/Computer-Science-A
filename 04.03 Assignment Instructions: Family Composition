@@ -1,0 +1,16 @@
+04.03 Assignment Instructions: Family Composition
+Instructions: Write a program to calculate the probability that a family with two children will consist of two boys, a boy and a girl, or two girls.
+
+Create a new project called 04.03 Family Structure in the Mod04 Assignments folder.
+Download the familyMembers.txt file to the newly-created project folder.
+Ccreen shot of a subset of the data file. BB GB GB BG GG.A screen shot of a subset of the data file is shown here. Notice that the file consists of Strings of two letters on each row. B and G indicate boy and girl, respectively.
+If the sample data only consisted of the five combinations shown, you would conclude that a family with two girls occurred one in five times; a family with a girl and a boy, occurred three in five times; and that a family with two boys occurred one in five times. (These results are clearly skewed, due to the small sample size.)
+Examine the full file. Could you manually process this file? It is obviously too big for you to manually count the frequency of boys and girls accurately. When developing the program, use the text files named test1.txt and test2.txt. These files contain a subset of the data. You can double check the accuracy of your program by evaluating the results by hand. If you want to create other text files, use a text editor and copy and paste.
+Family folderCreate a class called Family in the newly-created project folder.
+For a family of two, calculate the percentage occurrence of the three combinations: two boys, two girls, or one boy and one girl.
+Your program should print the sample size, the totals for each possible family combination (two boys, two girls, one boy and one girl), and the percent of each combination. Percentages should be reported to one or two decimal places.
+Variables as counters, such as each type of family, need to be declared as integers.
+Test the program with the smaller subset data files first. After you are convinced the program is working properly, run it with the familyMembers.txt file.
+Do you get the same results each time you run the program?
+Do you think the sample data set in the text file is representative of the actual probability of a family with two children consisting of two boys, a boy and a girl, or two girls?
+Expected Output: When your program runs correctly, values should appear for each of the fields of information shown below:
