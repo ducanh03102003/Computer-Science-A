@@ -2,7 +2,7 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
-public class FamilyStructure
+public class Family
 {
    public static void main (String args[]) throws IOException {
     //variables defined
@@ -57,5 +57,5 @@ public class FamilyStructure
    
 
     
-   }
-}
+   } //end of main method
+} //end of class
