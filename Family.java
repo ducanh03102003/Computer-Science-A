@@ -48,7 +48,7 @@ public class Family
         }
         else 
         {
-        System.out.println("Data reading error");
+        System.out.println("Something went wrong. Please try again.");
         }
     }//end while
     
