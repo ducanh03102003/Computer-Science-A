@@ -45,4 +45,4 @@ while True:
         else:
             print("Please enter a non-negative integer.")
     except ValueError:
-        print("Invalid input. Please enter a non-negative integer.")
+        print("Invalid")
